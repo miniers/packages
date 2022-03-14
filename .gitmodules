@@ -1,0 +1,3 @@
+[submodule "packages/surgio"]
+	path = packages/surgio
+	url = git@github.com:miniers/surgio.git
