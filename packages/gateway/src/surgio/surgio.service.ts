@@ -1,8 +1,8 @@
 import { Injectable, Inject, HttpException, HttpStatus } from '@nestjs/common';
-import { generate } from 'surgio/build/generate';
-import { Artifact } from 'surgio/build/generator/artifact';
-import { PossibleProviderType } from 'surgio/build/provider';
-import { CommandConfig } from 'surgio/build/types';
+import { generate } from '@surgio/surgio/build/generate';
+import { Artifact } from '@surgio/surgio/build/generator/artifact';
+import { PossibleProviderType } from '@surgio/surgio/build/provider';
+import { CommandConfig } from '@surgio/surgio/build/types';
 
 import { SurgioHelper } from './surgio-helper';
 

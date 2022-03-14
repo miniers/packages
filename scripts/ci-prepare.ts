@@ -8,6 +8,7 @@ const project = join(__dirname, '..');
 const projects = {
   '@surgio/gateway-frontend': join(project, 'packages/gateway-frontend'),
   '@surgio/gateway': join(project, 'packages/gateway'),
+  '@surgio/surgio': join(project, 'packages/surgio'),
 };
 
 (async () => {

@@ -13,8 +13,8 @@ import { observer } from 'mobx-react';
 import { useSnackbar } from 'notistack';
 import React, { forwardRef } from 'react';
 import Clipboard from 'react-clipboard.js';
-import { ArtifactConfig } from 'surgio/build/types';
-import { CATEGORIES } from 'surgio/build/utils/constant';
+import { ArtifactConfig }from '@surgio/surgio/build/types';
+import { CATEGORIES }from '@surgio/surgio/build/utils/constant';
 
 import { getDownloadUrl } from '../../libs/utils';
 import { useStores } from '../../stores';

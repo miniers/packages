@@ -1,7 +1,7 @@
 import Container from '@material-ui/core/Container';
 import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import { ArtifactConfig } from 'surgio/build/types';
+import { ArtifactConfig }from '@surgio/surgio/build/types';
 import useSWR from 'swr';
 import {
   useParams,

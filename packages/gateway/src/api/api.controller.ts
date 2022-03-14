@@ -12,8 +12,8 @@ import {
 import { ConfigService } from '@nestjs/config';
 import { Request, Response } from 'express';
 import _ from 'lodash';
-import { formatSubscriptionUserInfo } from 'surgio/build/utils/subscription';
-import { pkg as corePkgFile } from 'surgio';
+import { formatSubscriptionUserInfo } from '@surgio/surgio/build/utils/subscription';
+import { pkg as corePkgFile } from '@surgio/surgio';
 
 import { BearerAuthGuard } from '../auth/bearer.guard';
 import { CookieAuthGuard } from '../auth/cookie.guard';

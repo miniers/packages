@@ -1,7 +1,7 @@
 import { Module, DynamicModule, Global } from '@nestjs/common';
 import path from 'path';
 
-import { loadConfig } from 'surgio/build/utils/config';
+import { loadConfig } from '@surgio/surgio/build/utils/config';
 import { SurgioHelper } from './surgio-helper';
 import { SurgioService } from './surgio.service';
 

@@ -17,6 +17,9 @@
     "lint": "eslint . --ext .ts,.tsx",
     "prepare": "run-s build"
   },
+  "dependencies": {
+    "@surgio/surgio": "file:../surgio"
+  },
   "browserslist": {
     "production": [
       ">0.2%",

@@ -1,7 +1,7 @@
 import { Injectable, NestMiddleware } from '@nestjs/common';
 import { NextFunction, Request, Response } from 'express';
 import cookieParser from 'cookie-parser';
-import { isNow } from 'surgio/build/utils';
+import { isNow } from '@surgio/surgio/build/utils';
 
 @Injectable()
 export class CookieParserMiddleware implements NestMiddleware {

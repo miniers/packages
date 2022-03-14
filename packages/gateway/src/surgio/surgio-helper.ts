@@ -1,19 +1,19 @@
 import os from 'os';
 import { basename, join } from 'path';
 import fs from 'fs-extra';
-import { TMP_FOLDER_NAME } from 'surgio/build/utils/constant';
+import { TMP_FOLDER_NAME } from '@surgio/surgio/build/utils/constant';
 import { Environment } from 'nunjucks';
 import semver from 'semver';
 import { Logger } from '@nestjs/common';
-import { getEngine } from 'surgio/build/generator/template';
-import { getProvider, PossibleProviderType } from 'surgio/build/provider';
+import { getEngine } from '@surgio/surgio/build/generator/template';
+import { getProvider, PossibleProviderType } from '@surgio/surgio/build/provider';
 import {
   ArtifactConfig,
   CommandConfig,
   RemoteSnippet,
-} from 'surgio/build/types';
+} from '@surgio/surgio/build/types';
 import { PackageJson } from 'type-fest';
-import { pkg as corePkgFile } from 'surgio';
+import { pkg as corePkgFile } from '@surgio/surgio';
 
 export class SurgioHelper {
   public remoteSnippetList?: ReadonlyArray<RemoteSnippet>;

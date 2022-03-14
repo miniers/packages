@@ -11,9 +11,9 @@ import {
   Logger,
 } from '@nestjs/common';
 import { Request, Response } from 'express';
-import { Artifact } from 'surgio/build/generator/artifact';
+import { Artifact } from '@surgio/surgio/build/generator/artifact';
 import _ from 'lodash';
-import { getUrl } from 'surgio/build/utils';
+import { getUrl } from '@surgio/surgio/build/utils';
 import { URL } from 'url';
 import LRU from 'lru-cache';
 import dayjs from 'dayjs';
